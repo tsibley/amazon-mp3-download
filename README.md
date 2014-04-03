@@ -3,10 +3,14 @@ instead of tediously selecting and downloading each song one by one.
 
 ## How?
 
-First save the contents of bookmarklet.js as a bookmark.  Then navigate
-to any Amazon cloud player page with the songs you want to download
-displayed in the track list.  An album page works well.  Click on the
-bookmarklet you saved, and watch the downloads kick off in your browser!
+First save
+[this link](javascript:%28function%28s%29%7Bs.type%3D%22application%2Fjavascript%22%3Bs.src%3D%22https%3A%2F%2Fraw.githubusercontent.com%2Ftsibley%2Famazon-mp3-download%2Fmaster%2Famazon-mp3-download.js%22%3Bdocument.head.appendChild%28s%29%3B%7D%29%28document.createElement%28%22script%22%29%29)
+as a bookmark.
+
+Then navigate to any Amazon cloud player page with the songs you want to
+download displayed in the track list.  An album page works well.  Click
+on the bookmarklet you saved, and watch the downloads kick off in your
+browser!
 
 ## Why?
 

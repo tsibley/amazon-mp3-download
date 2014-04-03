@@ -1,4 +1,6 @@
-bookmarklet.js: amazon-mp3-download.js
+README.md: bookmarklet.js
 	jsmin < $< \
-		| perl -MURI::Escape -ne 'BEGIN { $$|++; print "javascript:" } print uri_escape($$_) unless /^$$/; END { print "\n" }' \
-		> $@
+		| perl -MURI::Escape -ne '$$|++; print uri_escape($$_) unless /^$$/;' \
+		> bookmarklet-uri.js
+	perl -pi -e 's/(?<=[(]javascript:).*(?=[)]$$)/`cat bookmarklet-uri.js`/e' $@
+	rm bookmarklet-uri.js
