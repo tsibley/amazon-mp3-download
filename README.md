@@ -5,7 +5,7 @@ instead of tediously selecting and downloading each song one by one.
 
 First save the following URI as a bookmark:
 
-    javascript:%28function%28s%29%7Bs.type%3D%22application%2Fjavascript%22%3Bs.src%3D%22https%3A%2F%2Fraw.githubusercontent.com%2Ftsibley%2Famazon-mp3-download%2Fmaster%2Famazon-mp3-download.js%22%3Bdocument.head.appendChild%28s%29%3B%7D%29%28document.createElement%28%22script%22%29%29
+    javascript:%28function%28s%29%7Bs.type%3D%22application%2Fjavascript%22%3Bs.src%3D%22http%3A%2F%2Ftsibley.net%2Fpub%2Famazon-mp3-download.js%22%3Bdocument.head.appendChild%28s%29%3B%7D%29%28document.createElement%28%22script%22%29%29
 
 Then navigate to any Amazon cloud player page with the songs you want to
 download displayed in the track list.  An album page works well.  Click
