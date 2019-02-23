@@ -1,3 +1,5 @@
+**There is approximately zero chance this bookmarklet still works, which doesn't matter because Amazon's music store allows you to download purchased whole albums at once again (even on Linux).**
+
 Download multiple songs from Amazon's cloud player with a single click
 instead of tediously selecting and downloading each song one by one.
 
